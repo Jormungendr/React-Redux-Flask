@@ -1,5 +1,5 @@
 import os
-
+import cfg
 from setup import basedir
 
 

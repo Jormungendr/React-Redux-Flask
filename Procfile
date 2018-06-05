@@ -1,1 +1,1 @@
-web: gunicorn main:app
+web:cd static/ && npm start && gunicorn main:app
