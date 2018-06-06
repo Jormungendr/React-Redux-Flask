@@ -1,1 +1,3 @@
-DATABASE_URL = 'postgres://gytbtlkbybztqx:641971f04ac98c46eda863c1c3c2c7e47e45560bf46874e7e67e01e0050a3e74@ec2-23-23-226-190.compute-1.amazonaws.com:5432/d13giojtf8s57a'
+import os
+# for Heroku
+DATABASE_URL = os.environ.get('DATABASE_URL')
